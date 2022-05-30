@@ -1,0 +1,16 @@
+﻿<Window x:Class="MowinSocketClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MowinSocketClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="265.635" Width="209.693" Closing="Window_Closing">
+    <Grid Margin="0,0,2,0">
+        <Image x:Name="qrCodeImage" Height="175" Margin="10,41,10,19"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="180" TextAlignment="Center">
+            <Hyperlink x:Name="connectLinkLabel" Click="Hyperlink_Click" NavigateUri="http://localhost">Koppla Mowin</Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Window>
